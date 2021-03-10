@@ -7,18 +7,16 @@ from random import randint
 
 WORD_FILE = 'tent-words.csv'
 
-fil   = open(WORD_FILE)
+# fil   = open(WORD_FILE)
 
-content = """WORD,DEFINITION,TV-SHOW-Line, TV-Show-Details
-throw out, to get rid of as a useless, My wife threw me out, Two and Half Men Pilot
-stay over, stay overnight, Is she staying over?, Two and Half Men Pilot
-rigid, -, Rigid, 
-musky, -, Your brother. He has a very musky scent,
-suffocating, -, I'm not that suffocating guy you threw out of the house,
-renaissance, -, A rebirth. A renaissance if you will,
-bluffs, -, He always pulls his ear when he bluffs,
-inherently, -, Is there something inherently wrong with,"""
+content = """throw out, to get rid of as a useless, My wife threw me out, Two and Half Men Pilot
+lawsuit,An action brought in a court of law by one party against another,suits
+bluffing, try to deceive someone as to one's abilities or intentions, He's bluffing, Two and Half Men Pilot
+delinquents, tending to commit crime, particularly minor crime, Suits
+insane, shocking, What is wrong with you? Are you insane?, Two and Half Men Pilot
+Frosted, covered with or as if with frost, 370, Two and Half Men Pilot"""
 
+# Not used
 def _read_csv():
 
     global fil
