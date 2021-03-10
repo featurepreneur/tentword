@@ -37,7 +37,7 @@ To verify the location and installation of `tentword` package:
 ```console
 $ pip show tentword
 Name: tentword
-Version: 0.0.3
+Version: 0.0.4
 Summary: TentWord for Python 3.6+
 Home-page: https://github.com/tactlabs/tentword.git
 Author: Raja CSP Raman
