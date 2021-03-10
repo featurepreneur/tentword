@@ -44,15 +44,17 @@ def _print_random_word_with_tv_show_line():
     word_table = PrettyTable(['Word', 'Meaning', 'TV-SHOW-Line', 'TV-Show-Details']) 
 
     content_list = _get_content_list()
-
     words_count = len(content_list) - 1
 
     p = random.randint(1, words_count)
 
-    word            = content_list[p][0]
-    meaning         = content_list[p][1]
-    usage           = content_list[p][2]
-    tv_show_details = content_list[p][3]
+    current_content = content_list[p]
+    current_content_list = current_content.split(',')
+
+    word            = current_content_list[0]
+    meaning         = current_content_list[1]
+    usage           = current_content_list[2]
+    tv_show_details = current_content_list[3]
 
     word_table.add_row([word, meaning, usage, tv_show_details])
 
