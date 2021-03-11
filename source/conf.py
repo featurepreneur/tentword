@@ -19,10 +19,10 @@ sys.path.insert(0, os.path.abspath('../tentword/'))
 
 project = 'tentword'
 copyright = '2021, tactlabs'
-author = 'Raja CSP Raman'
+author = 'Praabindh, Hari Prasad,Divya,Bairavi,Sharon'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.4'
+release = '0.0.5'
 
 
 # -- General configuration ---------------------------------------------------

@@ -20,8 +20,8 @@ with open(ROOT + '/README.md', 'r') as fp:
 setup(
     name='tentword',
     version=get_version(),
-    author='Raja CSP Raman',
-    author_email='raja.r.csp@gmail.com',
+    author='Praabindh, Hari Prasad,Divya,Bairavi,Sharon',
+    author_email='Praabindh, Hari Prasad,Divya,Bairavi,Sharon',
     description='TentWord for Python 3.6+',
     long_description=long_description,
     long_description_content_type='test/markdown',

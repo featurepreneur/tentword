@@ -1,4 +1,4 @@
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 
 from prettytable import PrettyTable
 import random
@@ -62,6 +62,27 @@ def _print_random_word_with_tv_show_line():
 
     return word_table
 
+
+
+def _get_random_word_with_tv_show_line():
+    content_list = _get_content_list()
+    words_count = len(content_list) - 1
+
+    p = random.randint(1, words_count)
+
+    current_content = content_list[p]
+    current_content_list = current_content.split(',')
+    info={
+        "word":current_content_list[0],
+        "meaning":current_content_list[1],
+        "dialogue":current_content_list[2],
+        "tv_show":current_content_list[3]
+    }
+
+   # print(word_table)
+
+    return info   
+
 def get_word():
     """Reverse the content
 
@@ -70,4 +91,17 @@ def get_word():
     :returns: Response int
     :rtype: int
     """
-    return _print_random_word_with_tv_show_line()
+    return _get_random_word_with_tv_show_line()
+
+
+def print_word():
+    """Reverse the content
+
+    :param url: content
+    :type content: str
+    :returns: Response int
+    :rtype: int
+    """
+    print(_print_random_word_with_tv_show_line())
+     
+    
