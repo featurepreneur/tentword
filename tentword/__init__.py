@@ -9,12 +9,7 @@ WORD_FILE = 'tent-words.csv'
 
 # fil   = open(WORD_FILE)
 
-content = """throw out, to get rid of as a useless, My wife threw me out, Two and Half Men Pilot
-lawsuit,An action brought in a court of law by one party against another,suits
-bluffing, try to deceive someone as to one's abilities or intentions, He's bluffing, Two and Half Men Pilot
-delinquents, tending to commit crime, particularly minor crime, Suits
-insane, shocking, What is wrong with you? Are you insane?, Two and Half Men Pilot
-Frosted, covered with or as if with frost, 370, Two and Half Men Pilot
+content = """word ,definition,TV-SHOW-Line,TV-Show-Details
 Bragging,excessively proud and boastful talk about one's achievements or possessions,Its not bragging if its true,Suits season 2 : sucker punch
 Chaos,complete disorder and comfusion,Chaos isn’t a pit. Chaos is a ladder,Game Of Thrones season 3 : The Climb
 Hustled,push roughly,Oh man I'm being hustled,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS
@@ -23,8 +18,10 @@ reconciliation,to restore to friendship or harmony,It leaves the door open for y
 errand,a short trip to fulfill some small business,Jake I have to run a quick errand,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS
 nausea,sensation of unease and discomfort,Unfortunately the feeling is nausea,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS
 reciprocated,to give and take mutually,Unprompted but reciprocated by yours truly,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS
-crapping,rubbish,"screaming, crapping birds in his house",Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS
-to lure,tempt (a person or animal) to do something,We're gonna throw the bait out the window to lure the birds out of the house,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS"""
+crapping,rubbish,screaming crapping birds in his house,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS
+to lure,tempt (a person or animal) to do something,We're gonna throw the bait out the window to lure the birds out of the house,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS
+aviary,a large cage  building or enclosure for keeping birds in,I'll put it on the market,Two and Half Men season-1 episode-2: BIG FLAPPY BASTARDS"""
+
 
 # Not used
 def _read_csv():
